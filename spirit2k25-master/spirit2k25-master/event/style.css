@@ -1,0 +1,135 @@
+@import url('https://fonts.cdnfonts.com/css/code');
+header
+{
+    background-color: #004e9c;
+    color: white;
+    /* padding: 0px 0px; */
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Code Bold', sans-serif;                                                                     
+    letter-spacing: 5px;      
+    padding-top: 20px;                                                                                 
+}
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 10px 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    height: 120px;
+}
+.cardbody {
+    justify-content: center;
+    margin: 20px 29px;
+  }
+  .card { 
+    padding: 15px;
+    width: 300px;
+    min-height: 310px;
+    border-radius: 20px;
+    background: #e8e8e8;
+    box-shadow: 5px 5px 6px #dadada,-5px -5px 6px #f6f6f6;
+    transition: 0.4s;
+  }
+  
+  .card:hover {
+    translate: 0 -10px;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: 900;
+    color: #2e54a7;
+    margin: 20px 0 0 10px;
+    font-family: 'Code Bold', sans-serif;   
+  }
+  
+  .card-image {
+    min-height: 170px;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 10px #c3c3c3,
+    inset -8px -8px 10px #cfcfcf;
+  }
+  
+  .card-body {
+    margin-top: -10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+  
+  .footer {
+    float: right;
+    margin: 28px 0 0 18px;
+    font-size: 13px;
+    color: #636363;
+  }
+  
+  .by-name {
+    font-weight: 700;
+  } 
+  #image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+ 
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    overflow-x: auto;
+    padding-left: 40px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #231c1c;
+}
+
+#but {
+  border: 3px solid #315cfd;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1rem;
+}
+#but:hover {
+  background: #000000;
+  color: white;
+  font-size: 1.7rem;
+}
+body{
+  /* overflow: hidden; */
+}
+#anker {
+  text-decoration: none;
+  font-family: 'Code Bold', sans-serif; 
+  font-weight: 900;
+}
+#but{
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
